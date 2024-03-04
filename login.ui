@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>welcome</class>
+ <widget class="QDialog" name="welcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Welcome to Server Utils v1.0</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>950</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #f0f0f0, stop:1 #d0d0d0); /* Gradient background */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for content */
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>40</y>
+      <width>631</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget QLabel#label {
+    font: 36pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Bottom margin for separation */
+}</string>
+    </property>
+    <property name="text">
+     <string>Welcome to Server Utils v1.0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginbutton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>450</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Styling for the QPushButton within the QWidget with ID &quot;widget&quot; */
+QWidget#widget QPushButton {
+    background-color: #4d90fe; /* Button background color */
+    color: #fff; /* Button text color */
+    border: 1px solid #357ae8; /* Button border color */
+    border-radius: 20px; /* Rounded corners for buttons */
+    padding: 5px 10px; /* Button padding */
+    font: 14pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
+}
+
+QWidget#widget QPushButton:hover {
+    background-color: #357ae8; /* Darker button background on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Log in</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>130</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget QLabel#label_2 {
+    font: 28pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
+    color: #333; /* Text color */
+   
+}</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userNameInput">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>250</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Styling for the QLineEdit with object name &quot;userNameInput&quot; */
+QWidget#widget QLineEdit#userNameInput {
+    background-color: #fff; /* Text input background color */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px; /* Padding inside the input */
+    font: 12pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
+}
+
+/* Focus effect for the input */
+QWidget#widget QLineEdit#userNameInput:focus {
+    border: 2px solid #4d90fe; /* Highlight border color on focus */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userPasswordInput">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>330</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Styling for the QLineEdit with object name &quot;userPasswordInput&quot; */
+QWidget#widget QLineEdit#userPasswordInput {
+    background-color: #fff; /* Text input background color */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px; /* Padding inside the input */
+    font: 12pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
+   
+}
+
+/* Focus effect for the input */
+QWidget#widget QLineEdit#userPasswordInput:focus {
+    border: 2px solid #4d90fe; /* Highlight border color on focus */
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>230</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter User Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter Password:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="err_label">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>380</y>
+      <width>301</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;color:red</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
