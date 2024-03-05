@@ -209,3 +209,14 @@ dist/main/_internal/win32/win32api.pyd
 dist/main/_internal/win32/win32evtlog.pyd
 dist/main/_internal/win32/win32service.pyd
 dist/main/_internal/win32/win32trace.pyd
+dist/main/config.ini
+dist/main/login.ui
+dist/main/main.ui
+dist/main/server_list.txt
+dist/main/ServerUtils v2.0.exe
+dist/main/service_list.txt
+Lib/config.ini
+Lib/login.ui
+Lib/main.ui
+Lib/server_list.txt
+Lib/service_list.txt
