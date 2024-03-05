@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>946</width>
-    <height>600</height>
+    <width>950</width>
+    <height>650</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>0</x>
       <y>0</y>
       <width>950</width>
-      <height>600</height>
+      <height>650</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -62,21 +62,21 @@ QWidget#widget QPushButton:hover {
     <widget class="QLabel" name="label_2">
      <property name="geometry">
       <rect>
-       <x>780</x>
-       <y>35</y>
-       <width>121</width>
+       <x>866</x>
+       <y>10</y>
+       <width>75</width>
        <height>20</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">QWidget#widget QLabel#label_2 {
-    font: 12pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
+    font: 9pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
     color: #333; /* Text color */
    
 }</string>
      </property>
      <property name="text">
-      <string>Admin</string>
+      <string>Rajesh K</string>
      </property>
     </widget>
     <widget class="QLabel" name="err_label">
@@ -98,7 +98,7 @@ QWidget#widget QPushButton:hover {
     <widget class="QPushButton" name="ServiceStatusButton">
      <property name="geometry">
       <rect>
-       <x>425</x>
+       <x>338</x>
        <y>20</y>
        <width>151</width>
        <height>31</height>
@@ -180,8 +180,8 @@ QWidget#widget QPushButton:hover {
     <widget class="QLCDNumber" name="lcdNumber">
      <property name="geometry">
       <rect>
-       <x>780</x>
-       <y>10</y>
+       <x>822</x>
+       <y>30</y>
        <width>121</width>
        <height>23</height>
       </rect>
@@ -483,9 +483,9 @@ QWidget#widget QPushButton:hover {
      <property name="geometry">
       <rect>
        <x>5</x>
-       <y>370</y>
+       <y>375</y>
        <width>941</width>
-       <height>181</height>
+       <height>231</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -527,7 +527,7 @@ QWidget#widget QPushButton:hover {
       </rect>
      </property>
      <property name="text">
-      <string>Logs</string>
+      <string>Logs:</string>
      </property>
     </widget>
     <widget class="QListWidget" name="list_ServiceNOTRunning">
@@ -630,32 +630,100 @@ QWidget#widget QPushButton:hover {
       <enum>Qt::Vertical</enum>
      </property>
     </widget>
-    <widget class="QPushButton" name="EmailReport">
+    <widget class="QCommandLinkButton" name="cmdSaveLogs">
      <property name="geometry">
       <rect>
-       <x>260</x>
-       <y>20</y>
-       <width>151</width>
-       <height>31</height>
+       <x>40</x>
+       <y>335</y>
+       <width>106</width>
+       <height>36</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="styleSheet">
-      <string notr="true">/* Styling for the QPushButton within the QWidget with ID &quot;widget&quot; */
-QWidget#widget QPushButton {
-    background-color: #4d90fe; /* Button background color */
-    color: #fff; /* Button text color */
-    border: 1px solid #357ae8; /* Button border color */
-    border-radius: 10px; /* Rounded corners for buttons */
-    font: 14pt &quot;MS Shell Dlg 2&quot;; /* Font size and family */
-}
-
-QWidget#widget QPushButton:hover {
-    background-color: #357ae8; /* Darker button background on hover */
-}
-</string>
+      <string notr="true"/>
      </property>
      <property name="text">
-      <string>Email Report</string>
+      <string notr="true">Save log</string>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="cmdSendLogEmail">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>335</y>
+       <width>146</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">Send log in email</string>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="cmdSendReportEmail">
+     <property name="geometry">
+      <rect>
+       <x>775</x>
+       <y>335</y>
+       <width>161</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string notr="true">Send Reports in Email</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cbPing">
+     <property name="geometry">
+      <rect>
+       <x>575</x>
+       <y>348</y>
+       <width>81</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ping Report</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="ckService">
+     <property name="geometry">
+      <rect>
+       <x>665</x>
+       <y>348</y>
+       <width>96</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Service Report</string>
      </property>
     </widget>
    </widget>
@@ -665,7 +733,7 @@ QWidget#widget QPushButton:hover {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>946</width>
+     <width>950</width>
      <height>21</height>
     </rect>
    </property>
@@ -702,13 +770,14 @@ QWidget#widget QPushButton:hover {
    </widget>
    <widget class="QMenu" name="menuExit">
     <property name="title">
-     <string>Exit</string>
+     <string>Close</string>
     </property>
+    <addaction name="actionExit"/>
    </widget>
    <addaction name="menuLoad"/>
    <addaction name="menuRun"/>
-   <addaction name="menuHelp"/>
    <addaction name="menuExit"/>
+   <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionLoad_Server_List">
@@ -756,7 +825,29 @@ QWidget#widget QPushButton:hover {
     <string>Start Service</string>
    </property>
   </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>2</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>2</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
 </ui>
