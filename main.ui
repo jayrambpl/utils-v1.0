@@ -642,7 +642,6 @@ QWidget#widget QPushButton:hover {
      <property name="font">
       <font>
        <family>Segoe UI</family>
-       <pointsize>-1</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>

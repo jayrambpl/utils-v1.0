@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>950</width>
-    <height>600</height>
+    <height>650</height>
    </rect>
   </property>
   <property name="baseSize">
@@ -25,7 +25,7 @@
      <x>0</x>
      <y>0</y>
      <width>950</width>
-     <height>600</height>
+     <height>650</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -39,10 +39,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>40</y>
-      <width>631</width>
-      <height>61</height>
+      <x>172</x>
+      <y>22</y>
+      <width>563</width>
+      <height>93</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -53,7 +53,7 @@
 }</string>
     </property>
     <property name="text">
-     <string>Welcome to Server Utils v1.0</string>
+     <string>Welcome to Server Utility</string>
     </property>
    </widget>
    <widget class="QPushButton" name="loginbutton">
@@ -89,7 +89,7 @@ QWidget#widget QPushButton:hover {
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>130</y>
+      <y>162</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -198,6 +198,35 @@ QWidget#widget QLineEdit#userPasswordInput:focus {
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>852</x>
+      <y>624</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(252, 252, 252);</string>
+    </property>
+    <property name="text">
+     <string>10 1 25 18 1 13</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>844</x>
+      <y>640</y>
+      <width>91</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
     </property>
    </widget>
   </widget>
